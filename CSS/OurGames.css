@@ -1,0 +1,39 @@
+.ourInfo{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+.orDescription{
+    width: 700px;
+    padding: 40px;
+    border-radius: 25px;
+    background: linear-gradient(145deg, #f1f1f1, #ffffff);
+    box-shadow:  20px 20px 60px #d2d2d2,
+             -20px -20px 60px #ffffff;
+}
+.ourImg{
+    margin-right: 5%;
+    padding: 40px;
+    border-radius: 25px;
+    background: linear-gradient(145deg, #f1f1f1, #ffffff);
+    box-shadow:  20px 20px 60px #d2d2d2,
+             -20px -20px 60px #ffffff;
+             
+}
+
+#gameImg{
+    width:700px;
+    border-radius: 25px;
+}
+@media(max-width:480px){
+    .orDescription{
+        width: 250px;
+    }
+    #gameImg{
+        width: 300px;
+    }
+    .ourImg{
+        padding: 20px;
+        margin-bottom:  20px;
+    }
+}
